@@ -37,7 +37,7 @@ const Navbar = ({ onCartClick }) => {
             {/* Home */}
             <li className="nav-item">
               <NavLink to="/" className="nav-link" onClick={handleNavClick}>
-                Home 🏠
+                Home
               </NavLink>
             </li>
 
