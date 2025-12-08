@@ -74,7 +74,7 @@ const Navbar = ({ onCartClick }) => {
                   handleNavClick();
                 }}
               >
-                🛒 Cart
+                Cart🛒
                 {itemCount > 0 && (
                   <span className="badge rounded-pill cart-badge">
                     {itemCount}
