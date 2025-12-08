@@ -460,3 +460,27 @@ body {
     transform: translateY(-2px);
   }
 }
+/* =====================================
+   FIX CART LOOK ONLY ON MOBILE
+   ===================================== */
+@media (max-width: 767px) {
+
+  /* Remove white background & round look */
+  .btn-cart {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    color: white !important;
+    font-weight: 500;
+  }
+
+  /* Fix badge position */
+  .cart-badge {
+    top: -4px;
+    right: -6px;
+    font-size: 0.65rem;
+  }
+
+}
