@@ -80,40 +80,35 @@ body {
   color: #fff;
   padding: 0.6rem 1.6rem;
   border-radius: 999px;
-  font-weight: 600;
-  box-shadow: 0 10px 20px rgba(0, 119, 182, 0.25);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    opacity 0.2s ease;
+  font-weight: 500;
+  border-radius: 999px;
+  border: none;
+  padding: 0.4rem 1rem;
+
 }
 
-.btn-hero-primary:hover {
+/* .btn-hero-primary:hover {
   transform: translateY(-1px);
   box-shadow: 0 14px 30px rgba(0, 119, 182, 0.35);
   opacity: 0.95;
   color: #fff;
   background: #0e5e1f;
-}
+} */
 
 .btn-hero-outline {
-  background: linear-gradient(180deg, var(--green), var(--blue));
-
+ background: linear-gradient(180deg, var(--green), var(--blue));
+  color: #fff;
   border-radius: 999px;
-  /* border: 1px solid #cbd5e1; */
-  padding: 0.6rem 1.4rem;
+  border: none;
+  padding: 0.4rem 1rem;
   font-weight: 500;
-  color: white;
-  transition:
-    background 0.2s ease,
-    transform 0.2s ease;
     
 }
 
-.btn-hero-outline:hover {
+/* .btn-hero-outline:hover {
   background: #0e5e1f;
   transform: translateY(-1px);
-}
+} */
 
 .btn-cart {
   background: linear-gradient(180deg, var(--green), var(--blue));
