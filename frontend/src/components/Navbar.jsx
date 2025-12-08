@@ -37,7 +37,7 @@ const Navbar = ({ onCartClick }) => {
             {/* Home */}
             <li className="nav-item">
               <NavLink to="/" className="nav-link" onClick={handleNavClick}>
-                Home
+                Home 🏠
               </NavLink>
             </li>
 
@@ -48,7 +48,7 @@ const Navbar = ({ onCartClick }) => {
                 className="nav-link"
                 onClick={handleNavClick}
               >
-                Products
+                Products 
               </NavLink>
             </li>
 
@@ -60,7 +60,7 @@ const Navbar = ({ onCartClick }) => {
                   className="nav-link"
                   onClick={handleNavClick}
                 >
-                  Admin
+                  Admin ⚙️
                 </NavLink>
               </li>
             )}
@@ -74,7 +74,7 @@ const Navbar = ({ onCartClick }) => {
                   handleNavClick();
                 }}
               >
-                Cart🛒
+                Cart 🛒
                 {itemCount > 0 && (
                   <span className="badge rounded-pill cart-badge">
                     {itemCount}
